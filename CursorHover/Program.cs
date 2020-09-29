@@ -10,48 +10,43 @@ namespace CrazyThreading
     class Program
     {
 
-
-        public static void Main(string[] args)
+        class CursorHover
         {
-
-
-
-            /* 
-             Random r = new Random();
-             int randomX = r.Next(1, 1080);
-             Console.WriteLine($"{randomX}"); // generates Random X coord
-                                              // write a WriteLine saying this is "x" coord
-             Random n = new Random();
-             int randomY = n.Next(1, 1920);
-             Console.WriteLine($"{randomY}"); // generates a random Y coord
-                                              // write a WriteLine saying this is "y" coord
+            public static void Main(string[] args)
+            {
 
 
 
 
-
-             while (true)
-             {
-                 int userX = Cursor.Position.X;
-                 int userY = Cursor.Position.Y;
-                 Console.WriteLine($"{userX},{userY}");
-             }
-
-
-         }*/
+                Random r = new Random();
+                int randomX = r.Next(1, 1080);
+                Console.WriteLine($"{randomX}"); // generates Random X coord
+                                                 // write a WriteLine saying this is "x" coord
+                Random n = new Random();
+                int randomY = n.Next(1, 1920);
+                Console.WriteLine($"{randomY}"); // generates a random Y coord
+                                                 // write a WriteLine saying this is "y" coord
 
 
-        }
-        static void playerName()
-        {
-            Console.WriteLine("Please enter your name");
-            string playerName = Console.ReadLine();
-            Console.Write($"{playerName}");
+
+
+
+                while (true)
+                {
+                    int userX = Cursor.Position.X;
+                    int userY = Cursor.Position.Y;
+                    Console.WriteLine($"{userX},{userY}");
+                }
+
+
+            }
+
 
         }
 
 
     }
-
-
 }
+
+
+
