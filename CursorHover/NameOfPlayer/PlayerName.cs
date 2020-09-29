@@ -11,7 +11,7 @@ namespace CursorHover.NameOfPlayer
         static void playerName()
         {
             Console.WriteLine("Please enter your name");
-            string playerName = Console.ReadLine();
+            string playerName = Console.ReadLine(); // need to get name with the score
             Console.Write($"{playerName}");
 
         }
