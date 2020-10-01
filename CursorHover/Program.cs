@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using System.Timers.Timer;
 
 namespace CrazyThreading
 {
@@ -38,6 +37,7 @@ namespace CrazyThreading
                     int userX = Cursor.Position.X;
                     int userY = Cursor.Position.Y;
                     Console.WriteLine($"{userX},{userY}");
+                    Thread.Sleep(1000);
                 }
 
 
@@ -46,9 +46,6 @@ namespace CrazyThreading
 
         }
 
-     
-
-        
 
     }
 }
