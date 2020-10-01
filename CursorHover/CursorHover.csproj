@@ -48,7 +48,6 @@
     <Compile Include="NameOfPlayer\PlayerName.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Timer\TimeClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
